@@ -71,7 +71,7 @@ export default function ContactPage() {
                     </div>
                     <div className="space-y-1">
                       <h3 className="font-medium">Email</h3>
-                      <p className="text-muted-foreground">info@digibayt.com</p>
+                      <p className="text-muted-foreground">hi@digibayt.com</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">

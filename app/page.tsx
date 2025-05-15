@@ -617,7 +617,7 @@ export default function Home() {
                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
                       <Mail className="h-5 w-5 text-primary" />
                     </div>
-                    <span>info@digibayt.com</span>
+                    <span>hi@digibayt.com</span>
                   </div>
                   <div className="flex items-center gap-2 hover:translate-x-1 transition-transform">
                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">

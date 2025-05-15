@@ -131,10 +131,10 @@ export function SiteFooter() {
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-muted-foreground" />
                 <Link
-                  href="mailto:info@digibayt.com"
+                  href="mailto:hi@digibayt.com"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  info@digibayt.com
+                  hi@digibayt.com
                 </Link>
               </li>
             </ul>
