@@ -26,13 +26,15 @@ export async function getAuthorCollection() {
 
 export async function getAllAuthors() {
   const collection = await getAuthorCollection()
-  return collection.find({}).sort({ name: 1 }).toArray()
+  const authors = await collection.find({}).sort({ name: 1 }).toArray()
+  return JSON.parse(JSON.stringify(authors))
 }
 
 export async function getAuthorById(id: string) {
   const collection = await getAuthorCollection()
   try {
-    return collection.findOne({ _id: new ObjectId(id) })
+    const author = await collection.findOne({ _id: new ObjectId(id) })
+    return author ? JSON.parse(JSON.stringify(author)) : null
   } catch (e) {
     return null
   }

@@ -18,13 +18,15 @@ export async function getTagCollection() {
 
 export async function getAllTags() {
   const collection = await getTagCollection()
-  return collection.find({}).sort({ name: 1 }).toArray()
+  const tags = await collection.find({}).sort({ name: 1 }).toArray()
+  return JSON.parse(JSON.stringify(tags))
 }
 
 export async function getTagById(id: string) {
   const collection = await getTagCollection()
   try {
-    return collection.findOne({ _id: new ObjectId(id) })
+    const tag = await collection.findOne({ _id: new ObjectId(id) })
+    return tag ? JSON.parse(JSON.stringify(tag)) : null
   } catch (e) {
     return null
   }

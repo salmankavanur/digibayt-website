@@ -19,13 +19,15 @@ export async function getCategoryCollection() {
 
 export async function getAllCategories() {
   const collection = await getCategoryCollection()
-  return collection.find({}).sort({ name: 1 }).toArray()
+  const categories = await collection.find({}).sort({ name: 1 }).toArray()
+  return JSON.parse(JSON.stringify(categories))
 }
 
 export async function getCategoryById(id: string) {
   const collection = await getCategoryCollection()
   try {
-    return collection.findOne({ _id: new ObjectId(id) })
+    const category = await collection.findOne({ _id: new ObjectId(id) })
+    return category ? JSON.parse(JSON.stringify(category)) : null
   } catch (e) {
     return null
   }
