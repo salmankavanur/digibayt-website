@@ -623,13 +623,13 @@ export default function Home() {
                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
                       <Phone className="h-5 w-5 text-primary" />
                     </div>
-                    <span>+1 (555) 123-4567</span>
+                    <span>+91 9074433100</span>
                   </div>
                   <div className="flex items-center gap-2 hover:translate-x-1 transition-transform">
                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
                       <MapPin className="h-5 w-5 text-primary" />
                     </div>
-                    <span>123 Tech Avenue, San Francisco, CA 94107</span>
+                    <span>18/81D, Malappuram, Kerala, India - 673639</span>
                   </div>
                 </div>
               </RevealSection>

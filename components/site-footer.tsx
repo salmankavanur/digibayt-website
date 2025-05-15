@@ -120,12 +120,12 @@ export function SiteFooter() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 text-muted-foreground shrink-0 mt-0.5" />
-                <span className="text-muted-foreground">123 Tech Street, Digital Valley, CA 94043, USA</span>
+                <span className="text-muted-foreground">18/81D, Malappuram, Kerala, India - 673639</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-muted-foreground" />
                 <Link href="tel:+11234567890" className="text-muted-foreground hover:text-foreground transition-colors">
-                  +1 (123) 456-7890
+                  +91 9074433100
                 </Link>
               </li>
               <li className="flex items-center">
