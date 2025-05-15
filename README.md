@@ -50,7 +50,6 @@ A modern, full-stack web application for DigiBayt, built with Next.js, TypeScrip
 
 ## Demo Environment
 - **Local:** [http://localhost:3000](http://localhost:3000)
-- **Production (example):** [https://v0-digi-bayt-website-build.vercel.app/](https://v0-digi-bayt-website-build.vercel.app/)
 
 ## Technologies Used
 - [Next.js](https://nextjs.org/) (App Router)
