@@ -9,9 +9,10 @@ interface NavLinkProps {
   href: string
   children: React.ReactNode
   className?: string
+  onClick?: () => void
 }
 
-export function NavLink({ href, children, className }: NavLinkProps) {
+export function NavLink({ href, children, className, onClick }: NavLinkProps) {
   const { scrollToSection } = useSmoothScroll()
 
   // Check if the link is a hash link (internal navigation)
@@ -22,7 +23,14 @@ export function NavLink({ href, children, className }: NavLinkProps) {
     const id = href.substring(1) // Remove the # from the href
 
     return (
-      <a href={href} className={className} onClick={(e) => scrollToSection(e, id)}>
+      <a 
+        href={href} 
+        className={className} 
+        onClick={(e) => {
+          scrollToSection(e, id);
+          if (onClick) onClick();
+        }}
+      >
         {children}
       </a>
     )
@@ -30,7 +38,7 @@ export function NavLink({ href, children, className }: NavLinkProps) {
 
   // Otherwise, use regular Next.js Link
   return (
-    <Link href={href} className={className}>
+    <Link href={href} className={className} onClick={onClick}>
       {children}
     </Link>
   )
