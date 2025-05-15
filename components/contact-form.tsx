@@ -242,7 +242,7 @@ export function ContactForm({ preselectedService, sourcePage = "website", classN
                     <FormLabel>Phone/WhatsApp Number</FormLabel>
                     <FormControl>
                       <Input
-                        placeholder="+1 (555) 123-4567"
+                        placeholder="+91 9074433100"
                         type="tel"
                         {...field}
                         className="border-primary/20 focus:border-primary focus:ring-primary/20 transition-all"

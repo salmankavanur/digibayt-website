@@ -695,7 +695,7 @@ export default function Home() {
                         </label>
                         <Input
                           id="phone"
-                          placeholder="+1 (555) 123-4567"
+                          placeholder="+91 9074433100"
                           type="tel"
                           className="border-primary/20 focus:border-primary focus:ring-primary/20 transition-all"
                         />

@@ -12,6 +12,8 @@ const COUNTRY_PHONE_MAPPING: CountryPhoneMapping = {
   DEFAULT: '+919074433100',
   // United Arab Emirates
   AE: '+971542950594',
+  PL: '+971542950594', // Replace xxxxxxxxx with the actual phone number
+  FR: '+971542950594', // Replace xxxxxxxxx with the actual phone number
   // Add more country codes as needed
   // US: '+1xxxxxxxxxx',
   // UK: '+44xxxxxxxxx',

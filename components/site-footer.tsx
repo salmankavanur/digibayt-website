@@ -124,7 +124,7 @@ export function SiteFooter() {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-muted-foreground" />
-                <Link href="tel:+11234567890" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="tel:+919074433100" className="text-muted-foreground hover:text-foreground transition-colors">
                   +91 9074433100
                 </Link>
               </li>
