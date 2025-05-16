@@ -68,7 +68,7 @@ export default function LibraryAutomationPage() {
                 <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 opacity-30 blur-xl"></div>
                 <div className="relative overflow-hidden rounded-2xl border border-emerald-500/20 bg-background/80 backdrop-blur-sm hover:scale-[1.02] transition-transform duration-500">
                   <Image
-                    src="/images/modern-university-library.png"
+                    src="/images/library-management-system.webp"
                     width={550}
                     height={550}
                     alt="Modern University Library"
@@ -461,9 +461,8 @@ export default function LibraryAutomationPage() {
                   </div>
                   <div className="relative">
                     <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 opacity-20 blur-xl"></div>
-                    <div className="relative overflow-hidden rounded-2xl border border-emerald-500/20 bg-background/80 backdrop-blur-sm">
-                      <Image
-                        src="/placeholder.svg?key=kwmwo"
+                    <div className="relative overflow-hidden rounded-2xl border border-emerald-500/20 bg-background/80 backdrop-blur-sm">                      <Image
+                        src="/images/library-dashboard.png"
                         width={500}
                         height={300}
                         alt="Data Migration"
@@ -492,9 +491,8 @@ export default function LibraryAutomationPage() {
                   </div>
                   <div className="relative">
                     <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 opacity-20 blur-xl"></div>
-                    <div className="relative overflow-hidden rounded-2xl border border-emerald-500/20 bg-background/80 backdrop-blur-sm">
-                      <Image
-                        src="/placeholder.svg?key=cjtru"
+                    <div className="relative overflow-hidden rounded-2xl border border-emerald-500/20 bg-background/80 backdrop-blur-sm">                      <Image
+                        src="/images/library-automation-illustration.png"
                         width={500}
                         height={300}
                         alt="Configuration Phase"
@@ -592,9 +590,8 @@ export default function LibraryAutomationPage() {
             </RevealSection>
 
             <RevealSection delay={100} className="group relative overflow-hidden rounded-xl">
-              <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/80 to-teal-500/80 opacity-0 transition-opacity group-hover:opacity-70"></div>
-              <Image
-                src="/placeholder.svg?key=tkhlv"
+              <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/80 to-teal-500/80 opacity-0 transition-opacity group-hover:opacity-70"></div>              <Image
+                src="/images/web-project-2.png"
                 width={400}
                 height={300}
                 alt="Public Library Case Study"
@@ -619,9 +616,8 @@ export default function LibraryAutomationPage() {
             </RevealSection>
 
             <RevealSection delay={150} className="group relative overflow-hidden rounded-xl">
-              <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/80 to-teal-500/80 opacity-0 transition-opacity group-hover:opacity-70"></div>
-              <Image
-                src="/placeholder.svg?key=o2g8t"
+              <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/80 to-teal-500/80 opacity-0 transition-opacity group-hover:opacity-70"></div>              <Image
+                src="/images/web-project-3.png"
                 width={400}
                 height={300}
                 alt="Special Library Case Study"

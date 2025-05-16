@@ -343,9 +343,8 @@ export default function WebDesignPage() {
                   </div>
                   <div className="relative">
                     <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-500 opacity-20 blur-xl"></div>
-                    <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm">
-                      <Image
-                        src="/placeholder.svg?key=yvwja"
+                    <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm">                      <Image
+                        src="/images/web-design-process.png"
                         width={500}
                         height={300}
                         alt="Wireframing Phase"
@@ -375,9 +374,8 @@ export default function WebDesignPage() {
                   </div>
                   <div className="relative">
                     <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-500 opacity-20 blur-xl"></div>
-                    <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm">
-                      <Image
-                        src="/placeholder.svg?key=4z7sn"
+                    <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm">                      <Image
+                        src="/corporate-website-design.png"
                         width={500}
                         height={300}
                         alt="Visual Design Phase"
@@ -407,9 +405,8 @@ export default function WebDesignPage() {
                   </div>
                   <div className="relative">
                     <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-500 opacity-20 blur-xl"></div>
-                    <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm">
-                      <Image
-                        src="/placeholder.svg?key=vyehq"
+                    <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm">                      <Image
+                        src="/images/web-development-illustration.png"
                         width={500}
                         height={300}
                         alt="Development Phase"
