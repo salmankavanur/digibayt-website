@@ -70,7 +70,7 @@ export default function DigitalMarketingPage() {
                 <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-600 opacity-30 blur-xl"></div>
                 <div className="relative overflow-hidden rounded-2xl border border-amber-500/20 bg-background/80 backdrop-blur-sm hover:scale-[1.02] transition-transform duration-500">
                   <Image
-                    src="/images/digital-marketing-hero.jpg"
+                    src="/images/digital-marketing-vector.jpg"
                     width={550}
                     height={550}
                     alt="Digital Marketing"
@@ -382,7 +382,7 @@ export default function DigitalMarketingPage() {
                 <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-600 opacity-20 blur-xl"></div>
                 <div className="relative overflow-hidden rounded-2xl border border-amber-500/20 bg-background/80 backdrop-blur-sm">
                   <Image
-                    src="/images/digital-marketing-strategy.png"
+                    src="/images/digital-marketing-strategy.avif"
                     width={500}
                     height={500}
                     alt="Digital Marketing Strategy"
