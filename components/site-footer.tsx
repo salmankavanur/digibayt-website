@@ -19,22 +19,26 @@ export function SiteFooter() {
               and strategic digital marketing.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                <Facebook className="h-5 w-5" />
-                <span className="sr-only">Facebook</span>
-              </Link>
-              <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                <Instagram className="h-5 w-5" />
-                <span className="sr-only">Instagram</span>
-              </Link>
-              <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+
+              <Link href="https://www.linkedin.com/company/digibayt/" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
+
+               <Link href="https://www.instagram.com/digi.bayt/" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Instagram className="h-5 w-5" />
+                <span className="sr-only">Instagram</span>
+              </Link>
+
+              <Link href="https://facebook.com/digibayt" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Facebook className="h-5 w-5" />
+                <span className="sr-only">Facebook</span>
+              </Link>
+              {/* <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Twitter className="h-5 w-5" />
+                <span className="sr-only">Twitter</span>
+              </Link> */}
+              
             </div>
           </div>
 
