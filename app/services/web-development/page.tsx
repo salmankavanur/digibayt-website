@@ -369,7 +369,7 @@ export default function WebDevelopmentPage() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="flex items-center space-x-2 rounded-lg border border-blue-500/20 bg-background/80 p-4 backdrop-blur-sm">
                     <div className="flex h-10 w-10 items-center justify-center rounded-md bg-blue-500/10">
-                      <Image src="/icons/node-icon.png" width={24} height={24} alt="Node.js" className="h-6 w-6" />
+                      <Image src="/icons/node-js-icon.svg" width={24} height={24} alt="Node.js" className="h-6 w-6" />
                     </div>
                     <div>
                       <h4 className="font-medium">Node.js</h4>
@@ -378,7 +378,7 @@ export default function WebDevelopmentPage() {
                   </div>
                   <div className="flex items-center space-x-2 rounded-lg border border-blue-500/20 bg-background/80 p-4 backdrop-blur-sm">
                     <div className="flex h-10 w-10 items-center justify-center rounded-md bg-blue-500/10">
-                      <Image src="/express-icon.png" width={24} height={24} alt="Express" className="h-6 w-6" />
+                      <Image src="/icons/express-js-icon.svg" width={24} height={24} alt="Express" className="h-6 w-6" />
                     </div>
                     <div>
                       <h4 className="font-medium">Express</h4>
@@ -387,7 +387,7 @@ export default function WebDevelopmentPage() {
                   </div>
                   <div className="flex items-center space-x-2 rounded-lg border border-blue-500/20 bg-background/80 p-4 backdrop-blur-sm">
                     <div className="flex h-10 w-10 items-center justify-center rounded-md bg-blue-500/10">
-                      <Image src="/icons/mongodb-icon.png" width={24} height={24} alt="MongoDB" className="h-6 w-6" />
+                      <Image src="/icons/mongodb.svg" width={24} height={24} alt="MongoDB" className="h-6 w-6" />
                     </div>
                     <div>
                       <h4 className="font-medium">MongoDB</h4>
@@ -397,7 +397,7 @@ export default function WebDevelopmentPage() {
                   <div className="flex items-center space-x-2 rounded-lg border border-blue-500/20 bg-background/80 p-4 backdrop-blur-sm">
                     <div className="flex h-10 w-10 items-center justify-center rounded-md bg-blue-500/10">
                       <Image
-                        src="/icons/postgresql-icon.png"
+                        src="/icons/PostgreSQL.png"
                         width={24}
                         height={24}
                         alt="PostgreSQL"
