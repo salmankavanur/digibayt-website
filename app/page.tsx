@@ -435,7 +435,7 @@ export default function Home() {
                 </div>
                 <div className="space-y-4">
                   <p className="text-muted-foreground">
-                    Founded in 2015, we've grown from a small team of passionate developers to a full-service digital
+                    Founded in 2024, we've grown from a small team of passionate developers to a full-service digital
                     agency with expertise across the entire digital spectrum. Our mission is to deliver innovative,
                     high-quality solutions that drive real business results.
                   </p>
