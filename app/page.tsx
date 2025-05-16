@@ -136,7 +136,7 @@ export default function Home() {
                   <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-primary to-purple-600 opacity-30 blur-xl"></div>
                   <div className="relative overflow-hidden rounded-2xl border border-primary/20 bg-background/80 backdrop-blur-sm hover:scale-[1.02] transition-transform duration-500">
                     <Image
-                      src="/placeholder.svg?key=6stkd"
+                      src="/digital-marketing-hero.png"
                       width={550}
                       height={550}
                       alt="Digital Technology Illustration"
@@ -572,7 +572,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 to-orange-500/10 opacity-0 transition-opacity group-hover:opacity-100"></div>
                 <div className="relative overflow-hidden">
                   <Image
-                    src="/placeholder.svg?key=0smsv"
+                    src="/confident-businesswoman.png"
                     width={300}
                     height={300}
                     alt="Team Member"
