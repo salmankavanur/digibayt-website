@@ -741,48 +741,9 @@ export default function Home() {
             © 2025 DigiBayt. All rights reserved.
           </p>
           <div className="flex gap-4">
-            <Link
-              href="#"
-              className="group flex h-9 w-9 items-center justify-center rounded-full border border-primary/20 bg-background text-muted-foreground transition-all hover:bg-primary/10 hover:text-primary hover:scale-110"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="h-4 w-4"
-              >
-                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-              </svg>
-              <span className="sr-only">Facebook</span>
-            </Link>
-            <Link
-              href="#"
-              className="group flex h-9 w-9 items-center justify-center rounded-full border border-primary/20 bg-background text-muted-foreground transition-all hover:bg-primary/10 hover:text-primary hover:scale-110"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="h-4 w-4"
-              >
-                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-              </svg>
-              <span className="sr-only">Twitter</span>
-            </Link>
-            <Link
-              href="#"
+
+                        <Link
+              href="https://www.linkedin.com/company/digibayt/"
               className="group flex h-9 w-9 items-center justify-center rounded-full border border-primary/20 bg-background text-muted-foreground transition-all hover:bg-primary/10 hover:text-primary hover:scale-110"
             >
               <svg
@@ -803,8 +764,50 @@ export default function Home() {
               </svg>
               <span className="sr-only">LinkedIn</span>
             </Link>
+            
             <Link
+              href="https://facebook.com/digibayt"
+              className="group flex h-9 w-9 items-center justify-center rounded-full border border-primary/20 bg-background text-muted-foreground transition-all hover:bg-primary/10 hover:text-primary hover:scale-110"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-4 w-4"
+              >
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg>
+              <span className="sr-only">Facebook</span>
+            </Link>
+            {/* <Link
               href="#"
+              className="group flex h-9 w-9 items-center justify-center rounded-full border border-primary/20 bg-background text-muted-foreground transition-all hover:bg-primary/10 hover:text-primary hover:scale-110"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-4 w-4"
+              >
+                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+              </svg>
+              <span className="sr-only">Twitter</span>
+            </Link> */}
+
+            <Link
+              href="https://www.instagram.com/digi.bayt/"
               className="group flex h-9 w-9 items-center justify-center rounded-full border border-primary/20 bg-background text-muted-foreground transition-all hover:bg-primary/10 hover:text-primary hover:scale-110"
             >
               <svg
