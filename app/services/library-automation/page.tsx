@@ -14,6 +14,7 @@ import {
   Mail,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge"
 import { RevealSection } from "@/components/reveal-section"
 import { ContactForm } from "@/components/contact-form"
 
@@ -386,6 +387,191 @@ export default function LibraryAutomationPage() {
           </div>
         </div>
       </section>
+
+            {/* Packages Section */}
+      <section className="relative w-full py-12 md:py-16 lg:py-20">
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background via-muted/50 to-background"></div>
+        <div className="container px-4 md:px-6">
+          <RevealSection className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
+            <div className="space-y-2">
+              <div className="inline-flex items-center rounded-full border border-emerald-500/20 bg-emerald-500/10 px-4 py-1.5 text-sm font-medium text-emerald-500">
+                <BookOpen className="mr-1 h-3.5 w-3.5" />
+                <span>Our Packages</span>
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+                Choose the Right <span className="text-emerald-500">Koha Solution</span> for Your Library
+              </h2>
+              <p className="max-w-[900px] text-muted-foreground md:text-xl">
+                We offer flexible library automation packages to meet your specific needs and budget
+              </p>
+            </div>
+          </RevealSection>
+
+          <div className="grid gap-8 md:grid-cols-3">
+            {/* Koha Cloud Hosting Package */}
+            <RevealSection delay={50} className="flex flex-col rounded-xl border border-emerald-500/20 bg-background/80 backdrop-blur-sm transition-all hover:shadow-xl hover:shadow-emerald-500/10 overflow-hidden">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image 
+                  src="/images/cloud-library.jpg"
+                  alt="Koha Cloud Hosting"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <Badge className="bg-emerald-500/90 text-white hover:bg-emerald-600">Most Popular</Badge>
+                </div>
+              </div>
+              <div className="flex flex-col flex-1 p-6">
+                <h3 className="text-2xl font-bold">Koha Cloud Hosting</h3>
+                <p className="mt-2 mb-6 text-sm text-muted-foreground flex-1">
+                  Our full-fledged centralized cloud package provides a complete managed Koha solution with professional hosting and support.
+                </p>
+                <ul className="space-y-2 mb-6">
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-emerald-500" />
+                    <span className="text-sm">Centralized cloud infrastructure</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-emerald-500" />
+                    <span className="text-sm">Regular backups & maintenance</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-emerald-500" />
+                    <span className="text-sm">24/7 technical support</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-emerald-500" />
+                    <span className="text-sm">Custom features available</span>
+                  </li>
+                </ul>
+                <Button
+                  className="bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-500/90 hover:to-teal-500/90 text-white w-full mt-auto"
+                  asChild
+                >
+                  <Link href="#contact-us">
+                    Get Started
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+              </div>
+            </RevealSection>
+
+            {/* Plug n Play Package */}
+            <RevealSection delay={100} className="flex flex-col rounded-xl border border-emerald-500/20 bg-background/80 backdrop-blur-sm transition-all hover:shadow-xl hover:shadow-emerald-500/10 overflow-hidden">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image 
+                  src="/images/library-dashboard.webp"
+                  alt="Plug n Play Koha"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              </div>
+              <div className="flex flex-col flex-1 p-6">
+                <h3 className="text-2xl font-bold">Plug n Play</h3>
+                <p className="mt-2 mb-6 text-sm text-muted-foreground flex-1">
+                  Get a complete pre-installed and configured physical device with Koha, ready for immediate deployment at your library.
+                </p>
+                <ul className="space-y-2 mb-6">
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-emerald-500" />
+                    <span className="text-sm">Pre-configured hardware</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-emerald-500" />
+                    <span className="text-sm">On-site deployment assistance</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-emerald-500" />
+                    <span className="text-sm">Staff training included</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-emerald-500" />
+                    <span className="text-sm">Customization available</span>
+                  </li>
+                </ul>
+                <Button
+                  className="bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-500/90 hover:to-teal-500/90 text-white w-full mt-auto"
+                  asChild
+                >
+                  <Link href="#contact-us">
+                    Get Started
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+              </div>
+            </RevealSection>
+
+            {/* Koha Setup Package */}
+            <RevealSection delay={150} className="flex flex-col rounded-xl border border-emerald-500/20 bg-background/80 backdrop-blur-sm transition-all hover:shadow-xl hover:shadow-emerald-500/10 overflow-hidden">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image 
+                  src="/images/library-management-system.webp"
+                  alt="Koha Setup"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute bottom-4 left-4">
+                  <Badge className="bg-emerald-500/90 text-white hover:bg-emerald-600">Basic</Badge>
+                </div>
+              </div>
+              <div className="flex flex-col flex-1 p-6">
+                <h3 className="text-2xl font-bold">Koha Setup</h3>
+                <p className="mt-2 mb-6 text-sm text-muted-foreground flex-1">
+                  We provide professional Koha installation and configuration services on your existing infrastructure.
+                </p>
+                <ul className="space-y-2 mb-6">
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-emerald-500" />
+                    <span className="text-sm">Expert installation</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-emerald-500" />
+                    <span className="text-sm">Basic configuration</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-emerald-500" />
+                    <span className="text-sm">Knowledge transfer</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-emerald-500" />
+                    <span className="text-sm">Additional setup as needed</span>
+                  </li>
+                </ul>
+                <Button
+                  className="bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-500/90 hover:to-teal-500/90 text-white w-full mt-auto"
+                  asChild
+                >
+                  <Link href="#contact-us">
+                    Get Started
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+              </div>
+            </RevealSection>
+          </div>
+
+          <RevealSection delay={200} className="mt-12 text-center">
+            <p className="mb-6 text-muted-foreground">
+              All packages can be customized to meet your specific requirements. Contact us to discuss your needs.
+            </p>
+            <Button
+              variant="outline"
+              size="lg"
+              className="border-emerald-500/20 hover:bg-emerald-500/10 hover:text-emerald-500 transition-all hover:scale-105"
+              asChild
+            >
+              <Link href="#contact-us">
+                Request a Custom Quote
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </RevealSection>
+        </div>
+      </section>
+
 
       {/* Implementation Process */}
       <section className="relative w-full py-12 md:py-16 lg:py-20">
