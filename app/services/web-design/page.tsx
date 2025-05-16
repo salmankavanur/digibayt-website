@@ -313,8 +313,8 @@ export default function WebDesignPage() {
                     <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-500 opacity-20 blur-xl"></div>
                     <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm">
                       <Image
-                        src="/images/web-design-process.png"
-                        width={500}
+                        src="/images/website-design-process.avif"
+                        width={700}
                         height={300}
                         alt="Discovery Phase"
                         className="rounded-xl object-cover p-1"
@@ -344,8 +344,8 @@ export default function WebDesignPage() {
                   <div className="relative">
                     <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-500 opacity-20 blur-xl"></div>
                     <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm">                      <Image
-                        src="/images/web-design-process.png"
-                        width={500}
+                        src="/images/design-process-wireframing-illustration.jpg"
+                        width={700}
                         height={300}
                         alt="Wireframing Phase"
                         className="rounded-xl object-cover p-1"
@@ -375,7 +375,7 @@ export default function WebDesignPage() {
                   <div className="relative">
                     <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-500 opacity-20 blur-xl"></div>
                     <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm">                      <Image
-                        src="/corporate-website-design.png"
+                        src="/images/web-designing.avif"
                         width={500}
                         height={300}
                         alt="Visual Design Phase"
@@ -406,8 +406,8 @@ export default function WebDesignPage() {
                   <div className="relative">
                     <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-500 opacity-20 blur-xl"></div>
                     <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm">                      <Image
-                        src="/images/web-development-illustration.png"
-                        width={500}
+                        src="/images/web development and processing.jpg"
+                        width={700}
                         height={300}
                         alt="Development Phase"
                         className="rounded-xl object-cover p-1"
@@ -437,8 +437,8 @@ export default function WebDesignPage() {
                     <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-500 opacity-20 blur-xl"></div>
                     <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm">
                       <Image
-                        src="/website-launch-celebration.png"
-                        width={500}
+                        src="/images/website-launching.jpg"
+                        width={700}
                         height={300}
                         alt="Launch Phase"
                         className="rounded-xl object-cover p-1"
