@@ -4,8 +4,13 @@ import { ArrowRight, CheckCircle, Palette, Zap, Code, Smartphone, Search, BarCha
 import { Button } from "@/components/ui/button"
 import { RevealSection } from "@/components/reveal-section"
 import { ContactForm } from "@/components/contact-form"
+import { PortfolioGrid } from "@/components/portfolio-grid"
+import { getPortfolioItemsByCategory } from "@/lib/portfolio"
 
-export default function WebDesignPage() {
+export default async function WebDesignPage() {
+  // Fetch portfolio items for the Web Design category (case and space sensitive)
+  const portfolioItems = await getPortfolioItemsByCategory("Web Design")
+
   return (
     <main className="flex-1">
       {/* Hero Section */}
@@ -471,93 +476,18 @@ export default function WebDesignPage() {
             </div>
           </RevealSection>
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <RevealSection delay={50} className="group relative overflow-hidden rounded-xl">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/80 to-indigo-500/80 opacity-0 transition-opacity group-hover:opacity-70"></div>
-              <Image
-                src="/images/corporate-website-design.png"
-                width={400}
-                height={300}
-                alt="Corporate Website"
-                className="aspect-video h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                <h3 className="text-xl font-bold text-white translate-y-4 transition-transform duration-500 group-hover:translate-y-0">
-                  Corporate Website Redesign
-                </h3>
-                <p className="mb-4 text-sm text-white/90 translate-y-4 transition-transform duration-500 delay-75 group-hover:translate-y-0">
-                  Modern redesign for a financial services firm, increasing lead generation by 45%
-                </p>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-white bg-white/20 text-white backdrop-blur-sm hover:bg-white/30 translate-y-4 transition-transform duration-500 delay-150 group-hover:translate-y-0"
-                >
-                  View Case Study
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </Button>
-              </div>
-            </RevealSection>
-
-            <RevealSection delay={100} className="group relative overflow-hidden rounded-xl">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/80 to-indigo-500/80 opacity-0 transition-opacity group-hover:opacity-70"></div>
-              <Image
-                src="/images/restaurant-website-design.png"
-                width={400}
-                height={300}
-                alt="Restaurant Website"
-                className="aspect-video h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                <h3 className="text-xl font-bold text-white translate-y-4 transition-transform duration-500 group-hover:translate-y-0">
-                  Restaurant Website
-                </h3>
-                <p className="mb-4 text-sm text-white/90 translate-y-4 transition-transform duration-500 delay-75 group-hover:translate-y-0">
-                  Appetizing design for a high-end restaurant, boosting online reservations by 60%
-                </p>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-white bg-white/20 text-white backdrop-blur-sm hover:bg-white/30 translate-y-4 transition-transform duration-500 delay-150 group-hover:translate-y-0"
-                >
-                  View Case Study
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </Button>
-              </div>
-            </RevealSection>
-
-            <RevealSection delay={150} className="group relative overflow-hidden rounded-xl">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/80 to-indigo-500/80 opacity-0 transition-opacity group-hover:opacity-70"></div>
-              <Image
-                src="/images/web-project-3.png"
-                width={400}
-                height={300}
-                alt="E-commerce Website"
-                className="aspect-video h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                <h3 className="text-xl font-bold text-white translate-y-4 transition-transform duration-500 group-hover:translate-y-0">
-                  E-commerce Platform
-                </h3>
-                <p className="mb-4 text-sm text-white/90 translate-y-4 transition-transform duration-500 delay-75 group-hover:translate-y-0">
-                  Conversion-focused design for a fashion retailer, increasing sales by 35%
-                </p>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-white bg-white/20 text-white backdrop-blur-sm hover:bg-white/30 translate-y-4 transition-transform duration-500 delay-150 group-hover:translate-y-0"
-                >
-                  View Case Study
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </Button>
-              </div>
-            </RevealSection>
-          </div>
+          {/* Dynamic Portfolio Grid */}
+          <PortfolioGrid portfolioItems={portfolioItems} />
 
           <RevealSection delay={200} className="flex justify-center mt-10">
-            <Button className="bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-500/90 hover:to-indigo-500/90 text-white shadow-lg shadow-blue-500/20 transition-all hover:shadow-xl hover:shadow-blue-500/30 hover:scale-105">
-              View All Projects
-              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            <Button
+              asChild
+              className="bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-500/90 hover:to-indigo-500/90 text-white shadow-lg shadow-blue-500/20 transition-all hover:shadow-xl hover:shadow-blue-500/30 hover:scale-105"
+            >
+              <Link href="/portfolio">
+                View All Projects
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </Link>
             </Button>
           </RevealSection>
         </div>
