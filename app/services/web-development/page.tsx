@@ -69,7 +69,7 @@ export default function WebDevelopmentPage() {
                 <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-teal-500 opacity-30 blur-xl"></div>
                 <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm hover:scale-[1.02] transition-transform duration-500">
                   <Image
-                    src="/images/web-development-hero.jpg"
+                    src="/images/custom-web-apps.jpg"
                     width={550}
                     height={550}
                     alt="Web Development"
@@ -418,7 +418,7 @@ export default function WebDevelopmentPage() {
                 <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-500 to-teal-500 opacity-20 blur-xl"></div>
                 <div className="relative overflow-hidden rounded-2xl border border-blue-500/20 bg-background/80 backdrop-blur-sm">
                   <Image
-                    src="/images/cloud-infrastructure.png"
+                    src="/images/web-development.avif"
                     width={500}
                     height={500}
                     alt="Technology Stack"
