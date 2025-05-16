@@ -324,7 +324,7 @@ export default function WebDevelopmentPage() {
                   </div>
                   <div className="flex items-center space-x-2 rounded-lg border border-blue-500/20 bg-background/80 p-4 backdrop-blur-sm">
                     <div className="flex h-10 w-10 items-center justify-center rounded-md bg-blue-500/10">
-                      <Image src="/icons/nextjs-icon.png" width={24} height={24} alt="Next.js" className="h-6 w-6" />
+                      <Image src="/icons/nextjs-icon.svg" width={24} height={24} alt="Next.js" className="h-6 w-6" />
                     </div>
                     <div>
                       <h4 className="font-medium">Next.js</h4>
