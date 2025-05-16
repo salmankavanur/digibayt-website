@@ -431,7 +431,7 @@ export default function LibraryAutomationPage() {
                     <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 opacity-20 blur-xl"></div>
                     <div className="relative overflow-hidden rounded-2xl border border-emerald-500/20 bg-background/80 backdrop-blur-sm">
                       <Image
-                        src="/images/library-dashboard.png"
+                        src="/images/library-dashboard.webp"
                         width={500}
                         height={300}
                         alt="Assessment Phase"
@@ -462,7 +462,7 @@ export default function LibraryAutomationPage() {
                   <div className="relative">
                     <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 opacity-20 blur-xl"></div>
                     <div className="relative overflow-hidden rounded-2xl border border-emerald-500/20 bg-background/80 backdrop-blur-sm">                      <Image
-                        src="/images/library-dashboard.png"
+                        src="/images/data-migration.webp"
                         width={500}
                         height={300}
                         alt="Data Migration"
