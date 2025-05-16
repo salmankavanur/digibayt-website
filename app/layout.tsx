@@ -9,7 +9,18 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "DigiBayt - Web Design, Development & Cloud Solutions",
   description: "Professional web design, development, and cloud solutions for businesses of all sizes.",
-    generator: 'v0.dev'
+  keywords: [
+    "web design",
+    "web development",
+    "cloud solutions",
+    "digital marketing",
+    "mobile app development",
+    "e-commerce solutions",
+    "SEO services",
+  ],
+  authors: [{ name: "DigiBayt" }],
+  creator: "DigiBayt",
+  publisher: "DigiBayt",
 }
 
 export default function RootLayout({
