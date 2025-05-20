@@ -612,24 +612,28 @@ export default function Home() {
                     Ready to transform your digital presence? Get in touch with our team to discuss how we can help.
                   </p>
                 </div>
-                <div className="space-y-4">
-                  <div className="flex items-center gap-2 hover:translate-x-1 transition-transform">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
-                      <Mail className="h-5 w-5 text-primary" />
+                <div className="flex flex-col gap-4">
+                  {/* India Office */}
+                  <div className="flex items-center gap-3 p-4 rounded-xl bg-primary/5 border border-primary/10 shadow-sm">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
+                      <Phone className="h-6 w-6 text-primary" />
                     </div>
-                    <span>hi@digibayt.com</span>
+                    <div>
+                      <div className="font-semibold">+91 9074433100</div>
+                      <div className="text-sm text-muted-foreground">18/81D, Malappuram, Kerala, India - 673639</div>
+                      <div className="text-xs text-primary font-medium mt-1">India Office</div>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-2 hover:translate-x-1 transition-transform">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
-                      <Phone className="h-5 w-5 text-primary" />
+                  {/* UAE Office */}
+                  <div className="flex items-center gap-3 p-4 rounded-xl bg-primary/5 border border-primary/10 shadow-sm">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
+                      <Phone className="h-6 w-6 text-primary" />
                     </div>
-                    <span>+91 9074433100</span>
-                  </div>
-                  <div className="flex items-center gap-2 hover:translate-x-1 transition-transform">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
-                      <MapPin className="h-5 w-5 text-primary" />
+                    <div>
+                      <div className="font-semibold">+971-542950594</div>
+                      <div className="text-sm text-muted-foreground">Deira, Dubai, United Arab Emirates</div>
+                      <div className="text-xs text-primary font-medium mt-1">UAE Office</div>
                     </div>
-                    <span>18/81D, Malappuram, Kerala, India - 673639</span>
                   </div>
                 </div>
               </RevealSection>
