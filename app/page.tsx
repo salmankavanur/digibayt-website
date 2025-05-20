@@ -651,7 +651,7 @@ export default function Home() {
                       <Phone className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <div className="font-semibold">+971-542950594</div>
+                      <div className="font-semibold">+971 542950594</div>
                       <div className="text-sm text-muted-foreground">Deira, Dubai, United Arab Emirates</div>
                       <div className="text-xs text-primary font-medium mt-1">UAE</div>
                     </div>
