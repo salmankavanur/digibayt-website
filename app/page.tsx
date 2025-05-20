@@ -144,12 +144,12 @@ export default function Home() {
                       priority
                     /> */}
                     <img
-  src="/images/svg/3d-object.svg"
-  alt="3D Object Illustration"
-  width={550}
-  height={550}
-  className="rounded-xl object-cover p-1"
-/>
+                      src="/images/svg/3d-object.svg"
+                      alt="3D Object Illustration"
+                      width={550}
+                      height={550}
+                      className="rounded-xl object-cover p-1"
+                    />
                   </div>
                 </div>
               </RevealSection>
