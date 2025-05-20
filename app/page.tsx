@@ -143,12 +143,13 @@ export default function Home() {
                       className="rounded-xl object-cover p-1"
                       priority
                     /> */}
-                    <img
+                    <Image
                       src="/images/svg/3d-object.svg"
                       alt="3D Object Illustration"
                       width={550}
                       height={550}
-                      className="rounded-xl object-cover p-1"
+                      className="rounded-xl object-cover p-1 !shadow-none animate-float"
+                      priority
                     />
                   </div>
                 </div>
