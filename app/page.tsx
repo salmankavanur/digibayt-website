@@ -621,7 +621,7 @@ export default function Home() {
                     <div>
                       <div className="font-semibold">+91 9074433100</div>
                       <div className="text-sm text-muted-foreground">18/81D, Malappuram, Kerala, India - 673639</div>
-                      <div className="text-xs text-primary font-medium mt-1">India Office</div>
+                      <div className="text-xs text-primary font-medium mt-1">India</div>
                     </div>
                   </div>
                   {/* UAE Office */}
@@ -632,7 +632,7 @@ export default function Home() {
                     <div>
                       <div className="font-semibold">+971-542950594</div>
                       <div className="text-sm text-muted-foreground">Deira, Dubai, United Arab Emirates</div>
-                      <div className="text-xs text-primary font-medium mt-1">UAE Office</div>
+                      <div className="text-xs text-primary font-medium mt-1">UAE</div>
                     </div>
                   </div>
                 </div>
