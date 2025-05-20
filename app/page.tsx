@@ -135,14 +135,21 @@ export default function Home() {
                 <div className="relative">
                   <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-primary to-purple-600 opacity-30 blur-xl"></div>
                   <div className="relative overflow-hidden rounded-2xl border border-primary/20 bg-background/80 backdrop-blur-sm hover:scale-[1.02] transition-transform duration-500">
-                    <Image
+                    {/* <Image
                       src="/digital-marketing-hero.png"
                       width={550}
                       height={550}
                       alt="Digital Technology Illustration"
                       className="rounded-xl object-cover p-1"
                       priority
-                    />
+                    /> */}
+                    <img
+  src="/images/svg/3d-object.svg"
+  alt="3D Object Illustration"
+  width={550}
+  height={550}
+  className="rounded-xl object-cover p-1"
+/>
                   </div>
                 </div>
               </RevealSection>
