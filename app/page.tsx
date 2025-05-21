@@ -49,7 +49,7 @@ export default function Home() {
               {/* <Zap className="h-5 w-5 text-white" /> */}
             </div>
             {/* <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600"> */}
-            <span className="text-xl font-bold bg-clip-text text-black">
+            <span className="text-xl font-bold bg-clip-text text-black dark:text-white">
               DigiBayt
             </span>
           </div>
@@ -764,7 +764,7 @@ export default function Home() {
               {/* <Zap className="h-5 w-5 text-white" /> */}
             </div>
             {/* <span className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600"> */}
-            <span className="text-lg font-bold bg-clip-text text-black">
+            <span className="text-lg font-bold bg-clip-text text-black dark:text-white">
               DigiBayt
             </span>
           </div>
