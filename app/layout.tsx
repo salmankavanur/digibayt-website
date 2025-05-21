@@ -21,6 +21,11 @@ export const metadata = {
   authors: [{ name: "DigiBayt" }],
   creator: "DigiBayt",
   publisher: "DigiBayt",
+  icons: {
+    icon: "https://demo.digibayt.com/icons/digibayt-logo.ico",
+    shortcut: "https://demo.digibayt.com/icons/digibayt-logo.ico",
+    apple: "https://demo.digibayt.com/icons/digibayt-logo.ico"
+  }
 }
 
 export default function RootLayout({
