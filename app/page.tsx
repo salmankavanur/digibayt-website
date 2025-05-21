@@ -760,10 +760,11 @@ export default function Home() {
           <div className="flex items-center gap-2">
             {/* <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-primary to-purple-600 hover:scale-110 transition-transform"> */}
             <div className="flex h-10 w-10 items-center justify-center rounded-full hover:scale-110 transition-transform">
-               <Image src="/icons/digibayt-logo.png" alt="DigiBayt Logo" width={32} height={32} className="object-contain" />
+              <Image src="/icons/digibayt-logo.png" alt="DigiBayt Logo" width={32} height={32} className="object-contain" />
               {/* <Zap className="h-5 w-5 text-white" /> */}
             </div>
-            <span className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
+            {/* <span className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600"> */}
+            <span className="text-lg font-bold bg-clip-text text-black">
               DigiBayt
             </span>
           </div>
