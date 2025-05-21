@@ -18,7 +18,7 @@ export function SiteHeader() {
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center space-x-2">
             <div className="relative w-8 h-8">
-              <Image src="/logo.png" alt="DigiBayt Logo" width={32} height={32} className="object-contain" />
+              <Image src="/icons/digibayt-logo.png" alt="DigiBayt Logo" width={32} height={32} className="object-contain" />
             </div>
             <span className="hidden font-bold sm:inline-block">DigiBayt</span>
           </Link>
