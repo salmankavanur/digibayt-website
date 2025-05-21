@@ -755,8 +755,10 @@ export default function Home() {
         <div className="absolute inset-0 -z-10 bg-gradient-to-t from-background/80 to-background"></div>
         <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
           <div className="flex items-center gap-2">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-primary to-purple-600 hover:scale-110 transition-transform">
-              <Zap className="h-5 w-5 text-white" />
+            {/* <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-primary to-purple-600 hover:scale-110 transition-transform"> */}
+            <div className="flex h-10 w-10 items-center justify-center rounded-full hover:scale-110 transition-transform">
+               <Image src="/icons/digibayt-logo.png" alt="DigiBayt Logo" width={32} height={32} className="object-contain" />
+              {/* <Zap className="h-5 w-5 text-white" /> */}
             </div>
             <span className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
               DigiBayt
