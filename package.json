@@ -51,6 +51,7 @@
     "dotenv": "latest",
     "embla-carousel-react": "8.5.1",
     "gcp-metadata": "latest",
+    "gsap": "^3.13.0",
     "input-otp": "1.4.1",
     "kerberos": "latest",
     "lucide-react": "^0.454.0",
