@@ -30,6 +30,7 @@ import { BlogSection } from "@/components/blog-section"
 import { PortfolioSection } from "@/components/portfolio-section"
 // Import WhatsApp Button component
 import WhatsAppButton from "@/components/whatsapp-button"
+import { VerticalParallaxSlider } from "@/components/vertical-parallax-slider"
 
 export default function Home() {
   return (
@@ -436,8 +437,11 @@ export default function Home() {
           </div>
         </section>
 
+       
+
         {/* Replace the static portfolio section with the dynamic PortfolioSection */}
         <PortfolioSection />
+
 
         <section id="about" className="relative w-full py-12 md:py-24 lg:py-32">
           <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background via-muted/50 to-background"></div>
@@ -495,6 +499,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+         <VerticalParallaxSlider />
 
         <section id="team" className="relative w-full py-12 md:py-24 lg:py-32">
           <div className="absolute inset-0 -z-10">
